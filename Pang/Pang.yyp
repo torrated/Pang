@@ -34,6 +34,7 @@
   },
   "name":"Pang",
   "resources":[
+    {"id":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},},
     {"id":{"name":"obj_juego","path":"objects/obj_juego/obj_juego.yy",},},
     {"id":{"name":"obj_mando_parent","path":"objects/obj_mando_parent/obj_mando_parent.yy",},},
     {"id":{"name":"obj_mando1","path":"objects/obj_mando1/obj_mando1.yy",},},
@@ -44,6 +45,7 @@
     {"id":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
     {"id":{"name":"fnc_detectar_mandos","path":"scripts/fnc_detectar_mandos/fnc_detectar_mandos.yy",},},
     {"id":{"name":"prc_asignar_mando","path":"scripts/prc_asignar_mando/prc_asignar_mando.yy",},},
+    {"id":{"name":"spr_collider","path":"sprites/spr_collider/spr_collider.yy",},},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},
     {"id":{"name":"spr_player2","path":"sprites/spr_player2/spr_player2.yy",},},
   ],
