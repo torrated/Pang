@@ -1,4 +1,8 @@
 /// @description lee los botones de los mandos
 
-if (gamepad_button_check(id_mando,gp_padr))
-	player.x += 1;
+//if (gamepad_button_check(id_mando,gp_axislh))
+//{
+	if (instance_exists(player))
+		player.x += player.velocidad_horizontal * gamepad_axis_value(id_mando,gp_axislh);
+//}
+
