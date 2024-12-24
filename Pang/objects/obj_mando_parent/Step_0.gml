@@ -1,3 +1,4 @@
 /// @description lee los botones de los mandos
 
-//gamepad_button_check()
+if (gamepad_button_check(id_mando,gp_padr))
+	player.x += 1;
