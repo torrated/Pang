@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"prc_asignar_mando",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"prc_asignar_mando",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
