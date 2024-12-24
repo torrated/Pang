@@ -9,7 +9,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_player_parent",
+    "path":"objects/obj_player_parent/obj_player_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_player1",
+    "path":"sprites/spr_player1/spr_player1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
