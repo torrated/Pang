@@ -1,4 +1,3 @@
 /// @description 
-
-var _numero_de_mandos_conectador = fnc_detectar_mandos();
-show_message(_numero_de_mandos_conectador)
+numero_de_mandos_conectados = fnc_detectar_mandos();
+numero_de_mandos_conectados_antes = -1;
