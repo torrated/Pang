@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mando_parent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_pelota_32",
+  "eventList":[],
   "managed":true,
-  "name":"obj_mando_parent",
+  "name":"obj_pelota_32",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_pelota_parent",
+    "path":"objects/obj_pelota_parent/obj_pelota_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_pelota_32",
+    "path":"sprites/spr_pelota_32/spr_pelota_32.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
