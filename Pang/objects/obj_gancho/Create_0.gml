@@ -1,4 +1,4 @@
 /// @description 
 
-velocidad = 5;
+velocidad = 10;
 esperar = true;
