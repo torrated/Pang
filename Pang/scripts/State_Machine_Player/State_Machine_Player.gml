@@ -1,0 +1,5 @@
+enum PLAYERSTATE
+{
+	NORMAL,
+	MUERTO
+}

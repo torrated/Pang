@@ -1,4 +1,4 @@
 /// @description DEBUG
 
 draw_self();
-draw_text(x,y+10,"x:"+string(x));
+draw_text(x,y+5,"state:"+string(state));

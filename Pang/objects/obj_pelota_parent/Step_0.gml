@@ -4,10 +4,10 @@
 if !(collision_point(velocidad_horizontal+bbox_left,y,obj_collider,false,false))
 		&&
 	!(collision_point(velocidad_horizontal+bbox_right,y,obj_collider,false,false))
-	x += velocidad_horizontal;
+	sentido_x = sentido_x;
 else
-	velocidad_horizontal = velocidad_horizontal * -1;
-
+	sentido_x *= -1;
+x += velocidad_horizontal * sentido_x;
 
 
 // movimiento vertical
