@@ -8,7 +8,7 @@ switch (sprite_index)
 	case spr_pelota_16: amplitud = 70;
 						velocidad_maxima = 15;
 						multiplicador_gravedad = 0.4;
-						velocidad_horizontal = 4*sentido_x;
+						velocidad_horizontal = 3*sentido_x;
 						break;
 	case spr_pelota_32: amplitud = 96*2;
 						velocidad_maxima = 16;
