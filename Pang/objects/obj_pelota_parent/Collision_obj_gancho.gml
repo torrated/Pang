@@ -1,6 +1,8 @@
 /// @description 
 
 var _nuevas_pelotas = noone;
+if (instance_exists(other.player))
+	other.player.puntuacion += puntos;
 
 switch (sprite_index)
 {
