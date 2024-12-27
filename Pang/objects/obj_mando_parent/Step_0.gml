@@ -9,5 +9,5 @@ if (gamepad_button_check_pressed(id_mando,gp_face1) && instance_exists(player))
 		!instance_exists(obj_gancho)
 		)
 		if (player.state == PLAYERSTATE.NORMAL)
-			instance_create_layer(player.x, player.y,"Instances",obj_gancho);
+			instance_create_layer(player.x, player.y,"LayerGancho",obj_gancho);
 }
