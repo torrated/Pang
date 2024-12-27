@@ -49,6 +49,7 @@
     {"id":{"name":"obj_player_parent","path":"objects/obj_player_parent/obj_player_parent.yy",},},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
+    {"id":{"name":"obj_puntos_flotantes","path":"objects/obj_puntos_flotantes/obj_puntos_flotantes.yy",},},
     {"id":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
     {"id":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},},
     {"id":{"name":"fnc_detectar_mandos","path":"scripts/fnc_detectar_mandos/fnc_detectar_mandos.yy",},},
