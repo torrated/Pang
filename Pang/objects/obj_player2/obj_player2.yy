@@ -13,7 +13,7 @@
     "name":"obj_player_parent",
     "path":"objects/obj_player_parent/obj_player_parent.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
