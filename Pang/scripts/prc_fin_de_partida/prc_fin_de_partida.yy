@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"prc_fin_de_partida",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"prc_fin_de_partida",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

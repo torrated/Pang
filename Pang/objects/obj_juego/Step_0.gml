@@ -26,3 +26,6 @@ if (numero_de_mandos_conectados <> numero_de_mandos_conectados_antes)
 	}
 	numero_de_mandos_conectados_antes = numero_de_mandos_conectados;
 }
+
+if (instance_number(obj_pelota_parent) == 0)
+	prc_stage_clear();

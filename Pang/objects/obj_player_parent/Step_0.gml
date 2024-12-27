@@ -2,6 +2,7 @@
 
 if (state = PLAYERSTATE.MUERTO)
 {
+	instance_destroy(self);
 }
 else
 {

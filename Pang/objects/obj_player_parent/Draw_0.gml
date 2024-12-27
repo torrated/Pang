@@ -1,4 +1,5 @@
 /// @description DEBUG
 
 draw_self();
-draw_text(x,y+5,"state:"+string(state));
+
+draw_text(bbox_left,bbox_top-10,"puntos:"+string(puntuacion));

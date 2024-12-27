@@ -1,3 +1,4 @@
 /// @description 
 
-state = PLAYERSTATE.MUERTO;
+if (puede_ser_golpeado)
+	state = PLAYERSTATE.MUERTO;

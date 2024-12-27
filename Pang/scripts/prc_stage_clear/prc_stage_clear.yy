@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"prc_stage_clear",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"prc_stage_clear",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

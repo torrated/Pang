@@ -19,7 +19,8 @@
   "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3037ef06-64fc-45f8-85d8-bc5850f99659","blendMode":0,"displayName":"default","isLocked":false,"name":"3037ef06-64fc-45f8-85d8-bc5850f99659","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4a933de4-366b-4838-bcad-d2bbe14f569a","blendMode":0,"displayName":"default (2)","isLocked":false,"name":"4a933de4-366b-4838-bcad-d2bbe14f569a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3037ef06-64fc-45f8-85d8-bc5850f99659","blendMode":0,"displayName":"default","isLocked":false,"name":"3037ef06-64fc-45f8-85d8-bc5850f99659","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"spr_pelota_128",
   "nineSlice":null,
