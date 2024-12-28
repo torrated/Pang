@@ -6,3 +6,5 @@ gravedad = 1;
 muestra_hitboxes = false;
 posicion_inicial_player1 = (room_width/2)-100;
 posicion_inicial_player2 = (room_width/2)+100;
+puntos_player1 = 0;
+puntos_player2 = 0;
