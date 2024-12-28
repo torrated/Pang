@@ -41,6 +41,7 @@
     {"id":{"name":"obj_mando_parent","path":"objects/obj_mando_parent/obj_mando_parent.yy",},},
     {"id":{"name":"obj_mando1","path":"objects/obj_mando1/obj_mando1.yy",},},
     {"id":{"name":"obj_mando2","path":"objects/obj_mando2/obj_mando2.yy",},},
+    {"id":{"name":"obj_panel_inferior","path":"objects/obj_panel_inferior/obj_panel_inferior.yy",},},
     {"id":{"name":"obj_pelota_128","path":"objects/obj_pelota_128/obj_pelota_128.yy",},},
     {"id":{"name":"obj_pelota_16","path":"objects/obj_pelota_16/obj_pelota_16.yy",},},
     {"id":{"name":"obj_pelota_32","path":"objects/obj_pelota_32/obj_pelota_32.yy",},},
