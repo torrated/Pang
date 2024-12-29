@@ -12,7 +12,7 @@ velocidad_vertical += (multiplicador_gravedad*obj_juego.gravedad);
 if !(collision_circle(x,y+velocidad_vertical,radio,obj_collider,false,true))
 {
 	if ((sentido_y < 0) && (y < (altura - amplitud)))
-		velocidad_vertical *= 0.90;
+		velocidad_vertical *= 0.95;
 }	
 else
 {
