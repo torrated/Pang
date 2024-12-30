@@ -1,6 +1,5 @@
 /// @description lee las teclas
 
-//eje_x = gamepad_axis_value(id_mando,gp_axislh);
 eje_x = keyboard_check(vk_right)-keyboard_check(vk_left);
 
 if (keyboard_check_pressed(vk_space) && instance_exists(player))
