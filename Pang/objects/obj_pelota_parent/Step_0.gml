@@ -1,7 +1,7 @@
 /// @description 
 
 // movimiento horizontal
-if !(collision_circle(x+(velocidad_horizontal*sentido_x),y,radio,obj_collider,false,true))
+if !(collision_circle(x+(velocidad_horizontal*sentido_x),y,radio,[obj_collider,obj_collider_destruible],false,true))
 	x += velocidad_horizontal*sentido_x;
 else
 	sentido_x *= -1;
@@ -9,7 +9,7 @@ else
 	
 // movimiento vertical
 velocidad_vertical += (multiplicador_gravedad*obj_juego.gravedad);
-if !(collision_circle(x,y+velocidad_vertical,radio,obj_collider,false,true))
+if !(collision_circle(x,y+velocidad_vertical,radio,[obj_collider,obj_collider_destruible],false,true))
 {
 	if ((sentido_y < 0) && (y < (altura - amplitud)))
 		velocidad_vertical *= 0.95;

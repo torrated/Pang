@@ -1,8 +1,9 @@
-/// @description lee los botones de los mandos
+/// @description lee las teclas
 
-eje_x = gamepad_axis_value(id_mando,gp_axislh);
+//eje_x = gamepad_axis_value(id_mando,gp_axislh);
+eje_x = keyboard_check(vk_right)-keyboard_check(vk_left);
 
-if (gamepad_button_check_pressed(id_mando,gp_face1) && instance_exists(player))
+if (keyboard_check_pressed(vk_space) && instance_exists(player))
 {
 	if (player.numero_de_ganchos < player.maximo_ganchos && player.state == PLAYERSTATE.NORMAL)
 	{
