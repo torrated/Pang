@@ -2,7 +2,7 @@
 
 if (state = PLAYERSTATE.MUERTO)
 {
-	instance_destroy(self);
+	prc_player_muerto(self);
 }
 else
 {
