@@ -43,6 +43,7 @@
     {"id":{"name":"obj_mando_parent","path":"objects/obj_mando_parent/obj_mando_parent.yy",},},
     {"id":{"name":"obj_mando1","path":"objects/obj_mando1/obj_mando1.yy",},},
     {"id":{"name":"obj_mando2","path":"objects/obj_mando2/obj_mando2.yy",},},
+    {"id":{"name":"obj_no_destruible_6","path":"objects/obj_no_destruible_6/obj_no_destruible_6.yy",},},
     {"id":{"name":"obj_panel_inferior","path":"objects/obj_panel_inferior/obj_panel_inferior.yy",},},
     {"id":{"name":"obj_pelota_128","path":"objects/obj_pelota_128/obj_pelota_128.yy",},},
     {"id":{"name":"obj_pelota_16","path":"objects/obj_pelota_16/obj_pelota_16.yy",},},
@@ -56,6 +57,7 @@
     {"id":{"name":"obj_teclado","path":"objects/obj_teclado/obj_teclado.yy",},},
     {"id":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
     {"id":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},},
+    {"id":{"name":"rm_room3","path":"rooms/rm_room3/rm_room3.yy",},},
     {"id":{"name":"fnc_detectar_mandos","path":"scripts/fnc_detectar_mandos/fnc_detectar_mandos.yy",},},
     {"id":{"name":"prc_asignar_mando","path":"scripts/prc_asignar_mando/prc_asignar_mando.yy",},},
     {"id":{"name":"prc_asignar_teclado","path":"scripts/prc_asignar_teclado/prc_asignar_teclado.yy",},},
@@ -69,6 +71,7 @@
     {"id":{"name":"spr_destruible_6","path":"sprites/spr_destruible_6/spr_destruible_6.yy",},},
     {"id":{"name":"spr_gancho","path":"sprites/spr_gancho/spr_gancho.yy",},},
     {"id":{"name":"spr_ladrillos","path":"sprites/spr_ladrillos/spr_ladrillos.yy",},},
+    {"id":{"name":"spr_no_destruible_6","path":"sprites/spr_no_destruible_6/spr_no_destruible_6.yy",},},
     {"id":{"name":"spr_panel_inferior","path":"sprites/spr_panel_inferior/spr_panel_inferior.yy",},},
     {"id":{"name":"spr_pelota_128","path":"sprites/spr_pelota_128/spr_pelota_128.yy",},},
     {"id":{"name":"spr_pelota_16","path":"sprites/spr_pelota_16/spr_pelota_16.yy",},},
@@ -83,6 +86,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
     {"roomId":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},},
+    {"roomId":{"name":"rm_room3","path":"rooms/rm_room3/rm_room3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
