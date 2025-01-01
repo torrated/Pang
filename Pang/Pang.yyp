@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"obj_collider_destruible","path":"objects/obj_collider_destruible/obj_collider_destruible.yy",},},
     {"id":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},},
+    {"id":{"name":"obj_destruible_6","path":"objects/obj_destruible_6/obj_destruible_6.yy",},},
     {"id":{"name":"obj_gancho","path":"objects/obj_gancho/obj_gancho.yy",},},
     {"id":{"name":"obj_juego","path":"objects/obj_juego/obj_juego.yy",},},
     {"id":{"name":"obj_mando_parent","path":"objects/obj_mando_parent/obj_mando_parent.yy",},},
@@ -63,7 +64,9 @@
     {"id":{"name":"prc_stage_clear","path":"scripts/prc_stage_clear/prc_stage_clear.yy",},},
     {"id":{"name":"State_Machine_Player","path":"scripts/State_Machine_Player/State_Machine_Player.yy",},},
     {"id":{"name":"spr_collider","path":"sprites/spr_collider/spr_collider.yy",},},
-    {"id":{"name":"spr_destruible","path":"sprites/spr_destruible/spr_destruible.yy",},},
+    {"id":{"name":"spr_destruible_3","path":"sprites/spr_destruible_3/spr_destruible_3.yy",},},
+    {"id":{"name":"spr_destruible_4","path":"sprites/spr_destruible_4/spr_destruible_4.yy",},},
+    {"id":{"name":"spr_destruible_6","path":"sprites/spr_destruible_6/spr_destruible_6.yy",},},
     {"id":{"name":"spr_gancho","path":"sprites/spr_gancho/spr_gancho.yy",},},
     {"id":{"name":"spr_ladrillos","path":"sprites/spr_ladrillos/spr_ladrillos.yy",},},
     {"id":{"name":"spr_panel_inferior","path":"sprites/spr_panel_inferior/spr_panel_inferior.yy",},},

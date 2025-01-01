@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_collider",
+  "%Name":"obj_destruible_6",
   "eventList":[],
   "managed":true,
-  "name":"obj_collider",
+  "name":"obj_destruible_6",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_collider_destruible",
+    "path":"objects/obj_collider_destruible/obj_collider_destruible.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_collider",
-    "path":"sprites/spr_collider/spr_collider.yy",
+    "name":"spr_destruible_6",
+    "path":"sprites/spr_destruible_6/spr_destruible_6.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
