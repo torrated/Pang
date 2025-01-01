@@ -18,12 +18,12 @@ switch (sprite_index)
 
 if (_nuevas_pelotas == noone)
 {
-	instance_destroy(other);
-	instance_destroy(self);
+	instance_destroy(other,true);
+	instance_destroy(self,true);
 }
 else
 {
-	instance_destroy(other);
+	instance_destroy(other,true);
 	var _pelota1 = instance_create_layer(x+5,y,"Pelotas",_nuevas_pelotas);
 	_pelota1.velocidad_vertical -= 10;
 	
@@ -31,5 +31,5 @@ else
 	_pelota2.sentido_x = -1;
 	_pelota2.velocidad_vertical -= 10;
 	
-	instance_destroy(self);
+	instance_destroy(self,true);
 }
