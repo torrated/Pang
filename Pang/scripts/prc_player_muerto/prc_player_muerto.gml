@@ -1,5 +1,5 @@
 /// @function						  prc_player_muerto
-/// @param {Asset.GMInstance} _player el jugador que ha muerto
+/// @param {Asset.GMObject} _player el jugador que ha muerto
 /// @description					  Hace acciones dependiendo de varios factores
 
 function prc_player_muerto(_player)

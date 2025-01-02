@@ -2,7 +2,7 @@
 
 if (state = PLAYERSTATE.MUERTO)
 {
-	prc_player_muerto(self);
+	prc_player_muerto(object_index);
 }
 else
 {
