@@ -8,3 +8,14 @@ maximo_ganchos = 1;
 numero_de_ganchos = 0;
 puntuacion = 0;
 vidas = 2;
+
+if (object_index == obj_player1)
+{
+	sprite_corriendo = spr_player1_corriendo;
+	sprite_quieto = spr_player1_quieto;
+}
+if (object_index == obj_player2) 
+{
+	sprite_corriendo = spr_player2_corriendo;
+	sprite_quieto = spr_player2_quieto;
+}
