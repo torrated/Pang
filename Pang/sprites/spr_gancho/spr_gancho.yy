@@ -19,7 +19,8 @@
   "height":768,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0fdca553-7d41-4417-b62a-499064632bcb","blendMode":0,"displayName":"default","isLocked":false,"name":"0fdca553-7d41-4417-b62a-499064632bcb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"da95ef4f-121e-440a-8fb1-60b9c5b84a40","blendMode":0,"displayName":"default (2)","isLocked":false,"name":"da95ef4f-121e-440a-8fb1-60b9c5b84a40","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0fdca553-7d41-4417-b62a-499064632bcb","blendMode":0,"displayName":"default","isLocked":false,"name":"0fdca553-7d41-4417-b62a-499064632bcb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"spr_gancho",
   "nineSlice":null,
