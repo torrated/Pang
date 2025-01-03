@@ -17,6 +17,10 @@ else
 		     &&
 			!(collision_point(_x_to+bbox_right,y,obj_collider,false,false))
 			x += _x_to;
+		while (collision_point(_x_to+bbox_left,y,obj_collider,false,false))
+			x += 1;
+		while (collision_point(_x_to+bbox_right,y,obj_collider,false,false))
+			x -= 1;
 	}
 	else
 	{
