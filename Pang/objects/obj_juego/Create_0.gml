@@ -8,3 +8,8 @@ posicion_inicial_player1 = (room_width/2)-100;
 posicion_inicial_player2 = (room_width/2)+100;
 puntos_player1 = 0;
 puntos_player2 = 0;
+
+probabilidad_pelotas = 25;
+probabilidad_destruibles = 25;
+
+global.ITEMS_DROPEABLES = [obj_proteccion];
