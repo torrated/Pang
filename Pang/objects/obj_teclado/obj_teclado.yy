@@ -10,8 +10,8 @@
   "name":"obj_teclado",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"controles",
+    "path":"folders/Objects/controles.yy",
   },
   "parentObjectId":null,
   "persistent":true,

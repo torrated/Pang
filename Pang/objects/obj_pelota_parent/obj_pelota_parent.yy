@@ -10,8 +10,8 @@
   "name":"obj_pelota_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"pelotas",
+    "path":"folders/Objects/pelotas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

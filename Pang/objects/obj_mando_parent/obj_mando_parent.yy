@@ -9,8 +9,8 @@
   "name":"obj_mando_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"controles",
+    "path":"folders/Objects/controles.yy",
   },
   "parentObjectId":null,
   "persistent":true,
