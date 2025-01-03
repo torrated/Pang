@@ -8,6 +8,8 @@ maximo_ganchos = 1;
 numero_de_ganchos = 0;
 puntuacion = 0;
 vidas = 2;
+proteccion = false;
+proteccion_objeto = noone;
 
 if (object_index == obj_player1)
 {
