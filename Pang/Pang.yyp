@@ -68,6 +68,7 @@
     {"id":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},},
     {"id":{"name":"rm_room3","path":"rooms/rm_room3/rm_room3.yy",},},
     {"id":{"name":"fnc_detectar_mandos","path":"scripts/fnc_detectar_mandos/fnc_detectar_mandos.yy",},},
+    {"id":{"name":"fnc_elige_random_item","path":"scripts/fnc_elige_random_item/fnc_elige_random_item.yy",},},
     {"id":{"name":"prc_asignar_mando","path":"scripts/prc_asignar_mando/prc_asignar_mando.yy",},},
     {"id":{"name":"prc_asignar_teclado","path":"scripts/prc_asignar_teclado/prc_asignar_teclado.yy",},},
     {"id":{"name":"prc_fin_de_partida","path":"scripts/prc_fin_de_partida/prc_fin_de_partida.yy",},},

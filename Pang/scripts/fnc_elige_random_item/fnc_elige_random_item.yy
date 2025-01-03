@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fnc_elige_random_item",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fnc_elige_random_item",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
