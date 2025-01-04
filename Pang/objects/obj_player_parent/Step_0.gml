@@ -6,7 +6,7 @@ if (state = PLAYERSTATE.MUERTO)
 }
 else
 {
-	// Movimiento
+	// Movimiento horizontal y cambio de sprites
 	var _x_to = velocidad_horizontal * mando.eje_x;
 
 	if (mando.eje_x <> 0)

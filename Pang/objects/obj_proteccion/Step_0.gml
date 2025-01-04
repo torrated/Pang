@@ -2,14 +2,14 @@
 
 if (player == noone)
 {
-	if (timer == timer_inicial)
+	if (timer == timer_inicial) // esto le hace caer y que cuando no cae, inicia un timer para desaparecer
 	{
 		if !(collision_point(x,y+velocidad,[obj_collider,obj_collider_destruible],false,false))
 			y += velocidad;
 		else
 			timer -= 1;
 	}
-	else
+	else // esto hacer parpadear al item y al final del timer, lo destruye
 	{
 		timer -= 1;
 		if (timer == 0)
@@ -23,13 +23,13 @@ if (player == noone)
 		}
 	}
 }
-else
+else // asigna la proteccion a uno de los players
 {
 	x = player.x;
 	y = player.y;
 	image_xscale = 2;
 	image_yscale = 3;
-	if (timer_quitar <> timer_quitar_inicial)
+	if (timer_quitar <> timer_quitar_inicial) // esto es para que no desaparezca de inmediato al colisionar con una pelota
 	{
 		timer_quitar -= 1;
 		if (timer_quitar == 0)
