@@ -1,16 +1,21 @@
 /// @function				prc_stage_clear
+/// @param {Asset.GMRoom}	_previous_room	la pantalla que finaliza
+/// @param {Asset.GMRoom}	_next_room	la pantalla siguiente
 /// @description			Si hay más pantallas, va a la siguiente. Si no, se acaba la partida
 
-function prc_stage_clear(){
-	show_message("stage clear");
-	
+function prc_stage_clear(_previous_room, _next_room)
+{	
 	if (instance_exists(obj_player1))
 		puntos_player1 += obj_player1.puntuacion;
 	if (instance_exists(obj_player2))
 		puntos_player2 += obj_player2.puntuacion;
 		
-	if (room == room_last)
+	if (_previous_room == rm_room3)
 		prc_fin_de_partida();
 	else
-		room_goto_next();
+	{
+		obj_stage_clear.next_room = _next_room;
+		obj_stage_clear.previous_room = _previous_room;
+		room_goto(rm_stage_clear);
+	}
 }
