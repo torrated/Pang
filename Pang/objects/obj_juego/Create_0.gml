@@ -12,4 +12,5 @@ puntos_player2 = 0;
 probabilidad_pelotas = 25;
 probabilidad_destruibles = 25;
 
-global.ITEMS_DROPEABLES = [obj_proteccion];
+timer_inicial = 2 * 60; // 2 segundos
+timer = timer_inicial;

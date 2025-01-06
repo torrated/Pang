@@ -29,5 +29,12 @@ if (numero_de_mandos_conectados <> numero_de_mandos_conectados_antes)
 	numero_de_mandos_conectados_antes = numero_de_mandos_conectados;
 }
 
-if (instance_number(obj_pelota_parent) == 0)
-	prc_stage_clear();
+if ((instance_number(obj_pelota_parent) == 0) && (room <> rm_stage_clear))
+{
+	timer -= 1;
+	if (timer == 0)
+	{
+		timer = timer_inicial;
+		prc_stage_clear(room,room_next(room));
+	}
+}

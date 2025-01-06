@@ -1,3 +1,6 @@
 /// @description DEBUG
 
-//instance_create_layer(200,200,"Instances",obj_proteccion);
+for (var _i = 0; _i < instance_number (obj_pelota_parent); _i++)
+{
+	instance_destroy(instance_find(obj_pelota_parent,_i), true);
+}
