@@ -8,7 +8,7 @@ posicion_inicial_player2 = (room_width/2)+100;
 puntos_player1 = 0;
 puntos_player2 = 0;
 
-probabilidad_pelotas = 100; //DEBUG
+probabilidad_pelotas = 25;
 probabilidad_destruibles = 25;
 
 timer_inicial = 2 * 60; // 2 segundos
