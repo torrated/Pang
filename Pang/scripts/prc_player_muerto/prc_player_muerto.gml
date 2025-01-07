@@ -10,5 +10,9 @@ function prc_player_muerto(_player)
 		room_restart();
 	}
 	else
-		prc_fin_de_partida();
+	{
+		obj_stage_clear.next_room = rm_room1;
+		obj_stage_clear.state_text = "Game Over";
+		room_goto(rm_stage_clear);
+	}
 }
