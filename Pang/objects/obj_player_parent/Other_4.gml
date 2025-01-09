@@ -6,3 +6,4 @@ maximo_ganchos = 1;
 numero_de_ganchos = 0;
 puntuacion = 0;
 arma = noone;
+y = obj_juego.altura_del_suelo-1;
