@@ -1,6 +1,6 @@
 /// @description 
 
-if !(other.proteccion)
+if (!(other.proteccion) && (player == noone))
 {
 	player = other;
 	other.proteccion_objeto = self;
