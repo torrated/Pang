@@ -10,7 +10,7 @@ function prc_stage_clear(_previous_room, _next_room)
 	if (instance_exists(obj_player2))
 		puntos_player2 += obj_player2.puntuacion;
 		
-	if (_previous_room == rm_room5)
+	if (_previous_room == rm_room6)
 	{
 		obj_stage_clear.next_room = rm_start;
 		obj_stage_clear.state_text = "Game Over";
