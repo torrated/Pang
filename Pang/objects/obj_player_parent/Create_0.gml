@@ -2,6 +2,7 @@
 
 mando = noone;
 velocidad_horizontal = 7;
+velocidad_vertical = 3;
 state = PLAYERSTATE.NORMAL;
 puede_ser_golpeado = true;
 

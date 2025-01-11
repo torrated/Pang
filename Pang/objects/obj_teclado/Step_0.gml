@@ -13,6 +13,8 @@ if (room <> rm_stage_clear)
 			_gancho.player = player;
 		}
 	}
+	
+	eje_y = keyboard_check(vk_down)-keyboard_check(vk_up);
 }
 else
 {
