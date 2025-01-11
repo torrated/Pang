@@ -1,5 +1,6 @@
 /// @description 
 
+audio_play_sound(snd_pop,1,false,1,undefined,random_range(0.9,1.1));
 var _nuevas_pelotas = noone;
 if (instance_exists(other.player))
 {
