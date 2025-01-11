@@ -34,6 +34,7 @@
   },
   "name":"Pang",
   "resources":[
+    {"id":{"name":"obj_boton_start","path":"objects/obj_boton_start/obj_boton_start.yy",},},
     {"id":{"name":"obj_collider_destruible","path":"objects/obj_collider_destruible/obj_collider_destruible.yy",},},
     {"id":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},},
     {"id":{"name":"obj_destruible_6","path":"objects/obj_destruible_6/obj_destruible_6.yy",},},
@@ -62,6 +63,7 @@
     {"id":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},},
     {"id":{"name":"rm_room3","path":"rooms/rm_room3/rm_room3.yy",},},
     {"id":{"name":"rm_stage_clear","path":"rooms/rm_stage_clear/rm_stage_clear.yy",},},
+    {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"fnc_detectar_mandos","path":"scripts/fnc_detectar_mandos/fnc_detectar_mandos.yy",},},
     {"id":{"name":"fnc_elige_random_item","path":"scripts/fnc_elige_random_item/fnc_elige_random_item.yy",},},
     {"id":{"name":"prc_asignar_mando","path":"scripts/prc_asignar_mando/prc_asignar_mando.yy",},},
@@ -70,7 +72,9 @@
     {"id":{"name":"prc_player_muerto","path":"scripts/prc_player_muerto/prc_player_muerto.yy",},},
     {"id":{"name":"prc_stage_clear","path":"scripts/prc_stage_clear/prc_stage_clear.yy",},},
     {"id":{"name":"State_Machine_Player","path":"scripts/State_Machine_Player/State_Machine_Player.yy",},},
+    {"id":{"name":"spr_boton_start","path":"sprites/spr_boton_start/spr_boton_start.yy",},},
     {"id":{"name":"spr_collider","path":"sprites/spr_collider/spr_collider.yy",},},
+    {"id":{"name":"spr_cooperativo_games","path":"sprites/spr_cooperativo_games/spr_cooperativo_games.yy",},},
     {"id":{"name":"spr_destruible_3","path":"sprites/spr_destruible_3/spr_destruible_3.yy",},},
     {"id":{"name":"spr_destruible_4","path":"sprites/spr_destruible_4/spr_destruible_4.yy",},},
     {"id":{"name":"spr_destruible_6","path":"sprites/spr_destruible_6/spr_destruible_6.yy",},},
@@ -94,6 +98,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
     {"roomId":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},},
     {"roomId":{"name":"rm_room3","path":"rooms/rm_room3/rm_room3.yy",},},
