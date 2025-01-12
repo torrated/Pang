@@ -6,6 +6,7 @@ if (instance_exists(other.player))
 {
 	other.player.puntuacion += puntos;
 	var _puntos = instance_create_layer(x,y,"Instances",obj_puntos_flotantes);
+	var _explosion = instance_create_layer(x,y,"Instances",obj_explosion);
 	_puntos.puntos = puntos;
 }
 
