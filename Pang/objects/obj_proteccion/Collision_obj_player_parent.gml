@@ -1,8 +1,11 @@
 /// @description 
 
-if (!(other.proteccion) && (player == noone))
+if (other.state <> PLAYERSTATE.MUERTO)
 {
-	player = other;
-	other.proteccion_objeto = self;
-	other.proteccion = true;
+	if (!(other.proteccion) && (player == noone))
+	{
+		player = other;
+		other.proteccion_objeto = self;
+		other.proteccion = true;
+	}
 }

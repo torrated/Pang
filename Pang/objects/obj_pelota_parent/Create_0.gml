@@ -5,6 +5,11 @@ sentido_x = 1; //derecha
 sentido_y = 1; //abajo
 altura = obj_juego.altura_del_suelo;
 
+timer_velocidad_vertical = 0;
+timer_velocidad_horizontal = 0;
+timer_sentido_x = 0;
+timer_sentido_y = 0;
+
 switch (sprite_index)
 {
 	case spr_pelota_16: amplitud = 96;
@@ -32,3 +37,13 @@ switch (sprite_index)
 						 radio = 128/2;
 						 break;
 }
+
+var _timer = false;
+if (instance_exists(obj_timer))
+	with (obj_timer)
+	{
+		if (alarm_get(0) > 0)
+			_timer = true;
+	}
+if (_timer)
+	alarm[0] = 1;
