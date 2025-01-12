@@ -74,6 +74,7 @@
     {"id":{"name":"rm_room6","path":"rooms/rm_room6/rm_room6.yy",},},
     {"id":{"name":"rm_stage_clear","path":"rooms/rm_stage_clear/rm_stage_clear.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"fnc_detectar_mandos","path":"scripts/fnc_detectar_mandos/fnc_detectar_mandos.yy",},},
     {"id":{"name":"fnc_elige_random_item","path":"scripts/fnc_elige_random_item/fnc_elige_random_item.yy",},},
     {"id":{"name":"prc_asignar_mando","path":"scripts/prc_asignar_mando/prc_asignar_mando.yy",},},
@@ -114,6 +115,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
     {"roomId":{"name":"rm_room2","path":"rooms/rm_room2/rm_room2.yy",},},

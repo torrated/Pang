@@ -1,4 +1,8 @@
 /// @description 
+left = virtual_key_add(0,0,89,640,vk_left);
+right = virtual_key_add(90,0,89,640,vk_right);
+space = virtual_key_add(180,0,180,640,vk_space);
+
 
 mando = noone;
 velocidad_horizontal = 7;
