@@ -5,7 +5,7 @@ draw_self();
 if (room <> rm_start)
 {
 	if (room <> rm_stage_clear)
-		draw_text_transformed(400,590,"stage "+string(string_delete(room_get_name(room),0,7)),size_letras_player,size_letras_player,0);
+		draw_text_transformed(400,590,"stage "+string(string_delete(room_get_name(room),1,7)),size_letras_player,size_letras_player,0);
 		
 	if (instance_exists(obj_player1))
 	{
