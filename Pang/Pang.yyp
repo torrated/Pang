@@ -45,6 +45,7 @@
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},},
     {"id":{"name":"obj_gancho_doble","path":"objects/obj_gancho_doble/obj_gancho_doble.yy",},},
     {"id":{"name":"obj_gancho","path":"objects/obj_gancho/obj_gancho.yy",},},
+    {"id":{"name":"obj_item_parent","path":"objects/obj_item_parent/obj_item_parent.yy",},},
     {"id":{"name":"obj_juego","path":"objects/obj_juego/obj_juego.yy",},},
     {"id":{"name":"obj_mando_parent","path":"objects/obj_mando_parent/obj_mando_parent.yy",},},
     {"id":{"name":"obj_mando1","path":"objects/obj_mando1/obj_mando1.yy",},},
