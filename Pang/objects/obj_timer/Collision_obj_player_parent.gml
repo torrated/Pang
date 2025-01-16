@@ -15,7 +15,7 @@ if (other.state <> PLAYERSTATE.MUERTO)
 	if (instance_exists(obj_player2))
 		obj_player2.puede_ser_golpeado = false;
 
-	alarm[0] = 120; // 60 = 1 segundo
+	alarm[0] = 180; // 60 = 1 segundo
 
 	image_xscale = 0;
 	image_yscale = 0;
