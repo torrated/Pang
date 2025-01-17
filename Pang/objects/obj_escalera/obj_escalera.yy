@@ -6,8 +6,8 @@
   "name":"obj_escalera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"miscelanea",
+    "path":"folders/Objects/miscelanea.yy",
   },
   "parentObjectId":null,
   "persistent":false,

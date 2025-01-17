@@ -6,8 +6,8 @@
   "name":"obj_destruible_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"plataformas",
+    "path":"folders/Objects/plataformas.yy",
   },
   "parentObjectId":{
     "name":"obj_collider_destruible",

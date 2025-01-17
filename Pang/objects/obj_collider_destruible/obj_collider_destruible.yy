@@ -10,8 +10,8 @@
   "name":"obj_collider_destruible",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"colliders",
+    "path":"folders/Objects/colliders.yy",
   },
   "parentObjectId":null,
   "persistent":false,
