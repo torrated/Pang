@@ -8,8 +8,8 @@
   "name":"obj_boton_start",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"miscelanea",
+    "path":"folders/Objects/miscelanea.yy",
   },
   "parentObjectId":{
     "name":"obj_collider_destruible",
